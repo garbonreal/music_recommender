@@ -1,0 +1,8 @@
+webapp/.angular/*
+businessServer/.mvn/*
+/target/*
+recommender/DataLoader/target/*
+out/*
+hetrec2011-lastfm-2k/*
+*.iml
+*.cmd
