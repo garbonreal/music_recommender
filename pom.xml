@@ -9,8 +9,7 @@
 
   <name>MusicRecommender</name>
   <modules>
-    <module>recommender</module>
-    <module>businessServer</module>
+    <module>back_end</module>
   </modules>
 
   <properties>

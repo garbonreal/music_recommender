@@ -1,8 +1,10 @@
 webapp/.angular/*
-businessServer/.mvn/*
-/target/*
+back_end/.mvn/*
+target/
+**/target/
 recommender/DataLoader/target/*
 out/*
 hetrec2011-lastfm-2k/*
 *.iml
 *.cmd
+.metals/
