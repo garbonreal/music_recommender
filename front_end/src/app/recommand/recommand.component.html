@@ -3,7 +3,7 @@
   <option *ngFor="let uid of uidRange" [value]="uid">{{ uid }}</option>
 </select>
 
-<button (click)="fetchMusicRatings()">查询</button>
+<button (click)="fetchMusicRatings()">Select</button>
 
 <h4>Recommendations:</h4>
 <p *ngIf="musicList.length > 0">

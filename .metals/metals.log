@@ -5251,3 +5251,439 @@ Exception in thread "pool-587-thread-1" java.lang.InterruptedException
 警告: Unsupported notification method: metals/windowStateDidChange
 2月 26, 2025 10:46:14 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 10:46:26 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 10:46:38 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 10:46:49 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 10:46:55 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 22:47:34 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 22:47:36 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 22:47:36 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 10:47:38 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_22-47-38-956.md
+2月 26, 2025 10:47:46 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 10:48:39 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:25:09 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:25:10 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:25:31 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:25:31 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 13
+2025.02.26 23:25:31 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:25:32 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-25-32-408.md
+2025.02.26 23:25:33 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:25:33 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-25-33-323.md
+2025.02.26 23:25:36 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:25:55 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:26:50 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:27:14 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:27:16 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:27:19 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:27:19 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-27-19-895.md
+2025.02.26 23:27:19 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:27:19 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:27:19 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:27:20 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-27-20-912.md
+2月 26, 2025 11:27:21 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:27:27 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:27:27 WARN  Running javac-semanticdb failed for file:///D:/javacode/MusicRecommender/back_end/src/main/java/org/example/test/RedisConnectionTest.java. Output:
+
+2月 26, 2025 11:27:27 下午 scala.meta.internal.metals.StdReporter $anonfun$create$1
+严重: QDox parse error in file:///D:/javacode/MusicRecommender/back_end/src/main/java/org/example/test/RedisConnectionTest.java (full report at: D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_qdox-error_23-27-27-199.md)
+2025.02.26 23:27:28 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:27:28 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:27:28 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:27:29 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:27:29 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-27-29-514.md
+2025.02.26 23:27:31 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:27:31 WARN  no build target for: D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java
+2025.02.26 23:27:31 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:27:31 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-27-31-402.md
+2025.02.26 23:27:34 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:27:34 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:27:36 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:27:37 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-27-37-002.md
+2月 26, 2025 11:27:43 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:28:09 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:28:17 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:28:25 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:28:25 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:28:56 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:29:46 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:29:47 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:30:00 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:30:57 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:31:27 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:31:30 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:31:43 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:31:56 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:34:03 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:34:23 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:34:33 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:35:24 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:35:46 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:35:46 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:35:46 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:35:46 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-35-46-982.md
+2025.02.26 23:35:52 INFO  no build target found for d:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:35:52 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:35:52 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:35:52 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-35-52-777.md
+2025.02.26 23:35:52 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:36:09 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:36:59 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:37:10 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:37:34 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:37:35 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:37:37 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:38:04 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:38:08 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:38:18 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:38:18 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:38:19 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:38:19 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-38-19-677.md
+2月 26, 2025 11:38:29 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:38:30 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:38:31 INFO  no build target found for d:\javacode\MusicRecommender\back_end\src\main\java\org\example\test\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:38:31 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:38:31 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:38:31 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-38-31-469.md
+2025.02.26 23:38:31 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:38:36 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:38:37 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:39:03 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\ApplicationTests.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:39:03 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\ApplicationTests.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:39:04 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\ApplicationTests.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:39:04 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-39-04-248.md
+2025.02.26 23:39:08 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:39:08 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:39:09 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:39:09 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-39-09-356.md
+2月 26, 2025 11:39:17 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:39:18 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:39:18 INFO  no build target found for d:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\Main.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:39:18 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\ApplicationTests.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:39:18 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\ApplicationTests.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:39:18 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\ApplicationTests.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:39:18 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-39-18-813.md
+2月 26, 2025 11:40:10 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:40:56 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:42:09 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:42:56 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:43:01 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:01 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:02 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:02 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-02-730.md
+2025.02.26 23:43:05 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:05 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 219
+2月 26, 2025 11:43:05 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-05-562.md
+2月 26, 2025 11:43:13 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:43:20 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:43:23 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 26, 2025 11:43:28 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.26 23:43:29 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:29 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:29 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:30 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:30 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-30-612.md
+2025.02.26 23:43:30 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:36 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:36 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:37 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-37-410.md
+2025.02.26 23:43:38 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:38 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-38-118.md
+2025.02.26 23:43:38 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:38 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-38-644.md
+2025.02.26 23:43:39 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:39 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-39-151.md
+2025.02.26 23:43:39 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:39 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-39-511.md
+2025.02.26 23:43:39 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:39 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-39-708.md
+2025.02.26 23:43:39 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:40 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:40 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-40-139.md
+2025.02.26 23:43:40 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:40 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:40 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:40 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-40-889.md
+2025.02.26 23:43:42 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:42 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:42 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:42 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:42 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-42-885.md
+2025.02.26 23:43:42 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:43 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:43 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-43-221.md
+2025.02.26 23:43:45 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:45 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:45 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-45-670.md
+2025.02.26 23:43:53 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:53 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:43:55 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:43:55 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-43-55-961.md
+2025.02.26 23:44:07 INFO  no build target found for d:\javacode\MusicRecommender\back_end\src\main\java\org\example\Application.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:07 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:07 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:07 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-07-442.md
+2025.02.26 23:44:09 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:09 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:09 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-09-892.md
+2025.02.26 23:44:09 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:09 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:10 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:10 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-10-267.md
+2025.02.26 23:44:12 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:12 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-12-381.md
+2025.02.26 23:44:13 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:13 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:13 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-13-970.md
+2025.02.26 23:44:13 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:14 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-14-595.md
+2025.02.26 23:44:14 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:15 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-15-052.md
+2025.02.26 23:44:14 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:15 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-15-346.md
+2025.02.26 23:44:14 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:14 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:15 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-15-564.md
+2025.02.26 23:44:14 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:15 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:15 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-15-972.md
+2025.02.26 23:44:16 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:16 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-16-125.md
+2025.02.26 23:44:16 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:16 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-16-927.md
+2025.02.26 23:44:17 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:17 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-17-248.md
+2025.02.26 23:44:17 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:17 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-17-424.md
+2025.02.26 23:44:17 WARN  no build target for: D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java
+2025.02.26 23:44:17 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:17 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-17-906.md
+2025.02.26 23:44:23 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:23 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:23 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:23 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-23-880.md
+2025.02.26 23:44:28 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:28 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:29 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:29 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-29-342.md
+2025.02.26 23:44:29 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:29 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-29-643.md
+2025.02.26 23:44:29 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:30 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:30 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:31 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:31 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-31-300.md
+2025.02.26 23:44:32 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:33 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.26 23:44:33 WARN  no build target for: D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java
+2月 26, 2025 11:44:33 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-33-147.md
+2025.02.26 23:44:33 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 26, 2025 11:44:33 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-26\r_compiler-error_23-44-33-578.md
+2月 26, 2025 11:45:43 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:25:11 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.27 00:25:33 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:25:33 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-25-33-404.md
+2025.02.27 00:25:33 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:25:33 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-25-33-859.md
+2025.02.27 00:25:35 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:25:35 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\test\java\org\example\back_end\RedisConnectionTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:25:35 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-25-35-889.md
+2月 27, 2025 12:27:35 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:27:43 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:27:54 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:28:39 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:29:07 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:29:56 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:33:37 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:33:38 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.27 00:33:51 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:33:51 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:33:52 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\BackEndApplication.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:33:52 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-33-52-191.md
+2025.02.27 00:33:55 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\rest\MusicRestApi.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:33:55 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\rest\MusicRestApi.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:33:56 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\rest\MusicRestApi.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:33:56 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-33-56-386.md
+2025.02.27 00:33:57 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:33:57 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:33:57 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:33:57 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-33-57-725.md
+2025.02.27 00:33:58 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:33:59 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-33-59-070.md
+2025.02.27 00:34:00 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:34:00 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-34-00-198.md
+2025.02.27 00:34:00 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:34:03 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:34:03 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-34-03-175.md
+2025.02.27 00:34:04 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:34:04 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-34-04-246.md
+2025.02.27 00:34:04 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.27 00:34:05 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:34:05 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-34-05-480.md
+2025.02.27 00:34:05 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:34:06 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-34-06-018.md
+2月 27, 2025 12:34:12 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:34:12 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:34:15 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:34:21 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:34:22 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:34:48 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:36:11 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:36:11 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.27 00:36:13 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:36:21 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:36:25 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2025.02.27 00:36:32 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:36:32 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-36-32-944.md
+2025.02.27 00:36:32 INFO  no build target found for D:\javacode\MusicRecommender\back_end\src\main\java\org\example\service\MusicService.java. Using presentation compiler with project's scala-library version: 3.3.4
+2月 27, 2025 12:36:33 上午 scala.meta.internal.pc.CompilerAccess handleError
+严重: A severe compiler error occurred, full details of the error can be found in the error report D:\javacode\MusicRecommender\.metals\.reports\metals-full\2025-02-27\r_compiler-error_00-36-33-845.md
+2月 27, 2025 12:36:40 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:36:42 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:38:00 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:38:08 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange
+2月 27, 2025 12:38:41 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+警告: Unsupported notification method: metals/windowStateDidChange

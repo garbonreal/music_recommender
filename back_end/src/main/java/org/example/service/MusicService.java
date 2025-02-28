@@ -95,7 +95,6 @@ public class MusicService {
         for (Music Music: Musics) {
             Music.setScore(scores.getOrDefault(Music.getMid(),Music.getScore()));
         }
-
         return Musics;
     }
 

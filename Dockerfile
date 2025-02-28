@@ -28,26 +28,29 @@ RUN sed -i 's/^bind 127.0.0.1/bind 0.0.0.0/' /etc/redis/redis.conf
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 ENV PATH="$JAVA_HOME/bin:$PATH"
 
-# # Download and extract Zookeeper
-# RUN wget -O /tmp/zookeeper.tar.gz https://downloads.apache.org/zookeeper/zookeeper-3.7.2/apache-zookeeper-3.7.2-bin.tar.gz
-# RUN tar -xzvf /tmp/zookeeper.tar.gz -C /opt
-# RUN mv /opt/apache-zookeeper-3.7.2-bin /opt/zookeeper
-# RUN rm -f /tmp/zookeeper.tar.gz
+# Download and extract Zookeeper
+RUN wget -O /tmp/zookeeper.tar.gz https://downloads.apache.org/zookeeper/zookeeper-3.7.2/apache-zookeeper-3.7.2-bin.tar.gz
+RUN tar -xzvf /tmp/zookeeper.tar.gz -C /opt
+RUN mv /opt/apache-zookeeper-3.7.2-bin /opt/zookeeper
+RUN rm -f /tmp/zookeeper.tar.gz
 
 # RUN mkdir -p /opt/zookeeper/conf
-# RUN echo "tickTime=2000 \n\
-#           dataDir=/opt/zookeeper/data \n\
-#           clientPort=2181 \n\
-#           initLimit=5 \n\
-#           syncLimit=2" > /opt/zookeeper/conf/zoo.cfg
+RUN echo "tickTime=2000 \n\
+          dataDir=/opt/zookeeper/data \n\
+          admin.enableServer=false \n\
+          clientPort=2181" > /opt/zookeeper/conf/zoo.cfg
 
 # RUN echo "export JVMFLAGS=\"-Xms128M -Xmx256M\"" >> /opt/zookeeper/bin/zkEnv.sh
 
-# # Download and extract Kafka
-# RUN wget -O /tmp/kafka.tgz https://downloads.apache.org/kafka/${KAFKA_VERSION}/kafka_${SCALA_VERSION}-${KAFKA_VERSION}.tgz
-# RUN tar -xzvf /tmp/kafka.tgz -C /opt
-# RUN mv /opt/kafka_${SCALA_VERSION}-${KAFKA_VERSION} $KAFKA_HOME
-# RUN rm -f /tmp/kafka.tgz
+# Download and extract Kafka
+RUN wget -O /tmp/kafka.tgz https://downloads.apache.org/kafka/${KAFKA_VERSION}/kafka_${SCALA_VERSION}-${KAFKA_VERSION}.tgz
+RUN tar -xzvf /tmp/kafka.tgz -C /opt
+RUN mv /opt/kafka_${SCALA_VERSION}-${KAFKA_VERSION} $KAFKA_HOME
+RUN rm -f /tmp/kafka.tgz
+
+RUN sed -i 's|^#listeners=.*|listeners=PLAINTEXT://0.0.0.0:9092|' $KAFKA_HOME/config/server.properties
+RUN sed -i 's|^#advertised.listeners=.*|advertised.listeners=PLAINTEXT://localhost:9092|' $KAFKA_HOME/config/server.properties
+RUN sed -i 's|^zookeeper.connect=.*|zookeeper.connect=localhost:2181|' $KAFKA_HOME/config/server.properties
 
 # RUN echo "export KAFKA_HEAP_OPTS=\"-Xmx512M -Xms256M\"" >> $KAFKA_HOME/bin/kafka-server-start.sh
 

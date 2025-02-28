@@ -7,16 +7,53 @@ docker build -t my-kafka-flume .
 
 docker run -d
   --name recommender-container
+  --hostname kafka-service
   -v D:\javacode\MusicRecommender\back_end\src\main\log\agent.log:/log/agent.log
+  -p 2181:2181
+  -p 9092:9092
   -p 6379:6379
   -p 11000:11000
   my-kafka-flume
+
+apt-get install net-tools
+# check zookeeper
+/opt/zookeeper/bin/zkServer.sh status
+netstat -tulnp | grep 2181
+ps -ef | grep zookeeper 
+ps -ef | grep kafka
+ps -ef | grep flume 
+ps -ef | grep redis 
+
+# check redis
+open redis-cli on localhost and redis-cli on docker, check the ping
+
+# check kafka
+/opt/kafka/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+$KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic MusicRecommender --from-beginning
+
+# check flume
+check the flume log file
+
+# how to restart the services
+ps aux | grep flume
+kill -9 <pid>
+
 ```
-  -p 2181:2181
-  -p 9092:9092
 
 ### 2. Start the Backend
 ```
 cd back_end
 mvn clean spring-boot:run
+```
+how to test
+```
+mvn clean install -U
+mvn -Dtest=RedisConnectionTest test
+```
+
+### 3. Run Data Processing
+```
+cd data_processing
+sbt compile
+sbt run 
 ```
