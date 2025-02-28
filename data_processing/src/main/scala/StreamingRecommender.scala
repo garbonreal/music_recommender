@@ -29,10 +29,10 @@ object StreamingRecommender {
     val conf = ConfigFactory.load()
 
     val config = Map(
-      "spark.cores" -> "local[*]",
+      "spark.cores" -> conf.getString("app.spark.cores"),
       "mongo.uri" -> conf.getString("app.mongo.uri"),
-      "mongo.db" -> "MusicRecommender",
-      "kafka.topic" -> "MusicRecommender"
+      "mongo.db" -> conf.getString("app.mongo.db"),
+      "kafka.topic" -> conf.getString("app.kafka.topic")
     )
 
     val sparkConf = new SparkConf().setMaster(config("spark.cores")).setAppName("StreamingRecommender")
@@ -80,7 +80,7 @@ object StreamingRecommender {
     // Convert the original data UID|MID|TIMESTAMP into a scoring stream
     val ratingStream = kafkaStream.map {
       msg =>
-        val attr = msg.value().split("\\|")
+        val attr = msg.value().split("MUSIC_LISTENING_PREFIX:").last.trim.split("\\|")
         (attr(0).toInt, attr(1).toInt, attr(2).toInt)
     }
 

@@ -66,7 +66,7 @@ object MusicLFM {
       .filter(_._2._2 > 0.4)    // Filter out those with a similarity greater than 0.6
       .groupByKey()
       .map{
-        case (mid, items) => MusicRecs( mid, items.toList.sortWith(_._2 > _._2).take(500).map(x => Recommendation(x._1, x._2)) )
+        case (mid, items) => MusicRecs(mid, items.toList.sortWith(_._2 > _._2).take(100).map(x => Recommendation(x._1, x._2)))
       }
       .toDF()
 
