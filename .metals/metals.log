@@ -16820,3 +16820,6 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 警告: Unsupported notification method: metals/windowStateDidChange
 3月 03, 2025 2:24:56 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 警告: Unsupported notification method: metals/windowStateDidChange
+2025.06.10 13:31:01 INFO  Started: Metals version 1.6.0 in folders 'D:\Personal_Experience\music_recommender' for client Visual Studio Code 1.96.4.
+6月 10, 2025 1:42:58 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
