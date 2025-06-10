@@ -5,8 +5,8 @@ This is the final project for course on Big Data Systems.
 
 This project implements a real-time music recommendation system based on a user behavior dataset from Last.fm website. The major function of this system is to update the recommendation result in real time according to the user's behavior. This project uses a series of big data tools to either build the data pipeline or design the recommendation algorithm, so that the project has the scalability to expand to distributed systems and process large-scale streaming data.
 
-<div style="text-align: center;">
-  <img src="static/music_recommendation_flow_diagram.png" width="60%">
+<div align="center">
+    <img src="static/music_recommendation_flow_diagram.png" width="60%">
 </div>
 
 ### Streaming Data Pipeline
@@ -16,7 +16,7 @@ This project adopts a series of big Data tools to build a Data pipeline, so that
 #### Step 1: Get Artist Similarity Matrix from Latent Factor Model (LFM)
 The dataset provides how many times each user has listened to different musicians, and the core of the Latent Factor Model (LFM) algorithm is that the user's behavior information contains information about user similarity and musician similarity. The user-click matrix can be decomposed into the product of user-implicit feature matrix and implicit feature-musician matrix. By calculating the similarity between those hidden features from musicians, we can get the artist similarity matrix, which can be used for the real-time recommendation algorithm.
 
-<div style="text-align: center;">
+<div align="center">
   <img src="static/LFM.png" width="50%">
 </div>
 
@@ -27,7 +27,7 @@ The core of the real-time recommendation algorithm is:the preferences of users i
 3. Calculate the similarity of each item in `smids` with `mid` and each item in `hmids` with `mid`, and sum them according to different weights as score.
 4. Reorder `smids` by similarity score to return the top 20 musicians;
 
-<div style="text-align: center;">
+<div align="center">
   <img src="static/real-time_algorithm.png" width="30%">
 </div>
 
@@ -37,7 +37,7 @@ This project uses different NoSQL databases to store data according to the chara
 ### Web Application
 The project also developed a Web application through which users can operate and view music recommendation results. The Web application uses the Angular framework for the front end, the Spring Boot framework for the back end, and the front and back end interact with Restful APIs.
 
-<div style="text-align: center;">
+<div align="center">
   <img src="static/recommender-ezgif.com-video-to-gif-converter.gif" width="80%">
 </div>
 
