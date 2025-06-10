@@ -1,6 +1,8 @@
+package com.example.recommender
+
 import com.mongodb.casbah.commons.MongoDBObject
 import com.mongodb.casbah.{MongoClient, MongoClientURI}
-import model.{MongoConfig, Recommendation, MusicRecs}
+import com.example.model.{MongoConfig, Recommendation, MusicRecs}
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
@@ -90,6 +92,8 @@ object StreamingRecommender {
         case (uid, mid, timestamp) => {
           println("rating data coming! >>>>>>>>>>>>>>>>")
 
+          ConnHelper.jedis.set("calculation_status:" + uid, "waiting");
+
           // 1. Get the most recent K ratings of the current user from redis and save them as Array[(mid, score)]
           val userRecentlyRatings = getUserRecentlyRating( MAX_USER_RATINGS_NUM, uid, ConnHelper.jedis )
 
@@ -101,6 +105,8 @@ object StreamingRecommender {
 
           // 4. Save recommendation data to mongodb
           saveDataToMongoDB( uid, streamRecs )
+
+          ConnHelper.jedis.set("calculation_status:" + uid, "done");
         }
       }
     }
@@ -125,20 +131,16 @@ object StreamingRecommender {
       .toArray
   }
 
-  /**
-    * 获取跟当前电影做相似的num个电影，作为备选电影
-    * @param num       相似电影的数量
-    * @param mid       当前电影ID
-    * @param uid       当前评分用户ID
-    * @param simMusics 相似度矩阵
-    * @return          过滤之后的备选电影列表
-    */
+
   def getTopSimMusics(num: Int, mid: Int, uid: Int, simMusics: scala.collection.Map[Int, scala.collection.immutable.Map[Int, Double]])
                      (implicit mongoConfig: MongoConfig): Array[Int] ={
-    // 1. 从相似度矩阵中拿到所有相似的电影
-    val allSimMusics = simMusics(mid).toArray
+    val allSimMusics = simMusics.getOrElse(mid, Map()).toArray
 
-    // 2. 从mongodb中查询用户已看过的电影
+    if (allSimMusics.isEmpty) {
+      println(s"Warning: mid=$mid not found in simMusics, returning empty result.")
+      return Array.empty[Int]
+    }
+
     val ratingExist = ConnHelper.mongoClient(mongoConfig.db)(MONGODB_RATING_COLLECTION)
       .find( MongoDBObject("uid" -> uid) )
       .toArray
@@ -146,7 +148,6 @@ object StreamingRecommender {
         item => item.get("mid").toString.toInt
       }
 
-    // 3. 把看过的过滤，得到输出列表
     allSimMusics.filter( x=> ! ratingExist.contains(x._1) )
       .sortWith(_._2>_._2)
       .take(num)
@@ -156,30 +157,25 @@ object StreamingRecommender {
   def computeMusicScores(candidateMusics: Array[Int],
                          userRecentlyRatings: Array[Int],
                          simMusics: scala.collection.Map[Int, scala.collection.immutable.Map[Int, Double]]): Array[(Int, Double)] ={
-    // 定义一个ArrayBuffer，用于保存每一个备选电影的基础得分
     val scores = scala.collection.mutable.ArrayBuffer[(Int, Double)]()
-    // 定义一个HashMap，保存每一个备选电影的增强减弱因子
     val increMap = scala.collection.mutable.HashMap[Int, Int]()
     val decreMap = scala.collection.mutable.HashMap[Int, Int]()
 
     for( candidateMusic <- candidateMusics; userRecentlyRating <- userRecentlyRatings){
-      // 拿到备选电影和最近评分电影的相似度
       val simScore = getMusicsSimScore( candidateMusic, userRecentlyRating, simMusics )
       print(simScore)
 
-      // 计算备选电影的基础推荐得分
       scores += ( (candidateMusic, simScore) )
       increMap(candidateMusic) = increMap.getOrDefault(candidateMusic, 0) + 1
     }
-    // 根据备选电影的mid做groupby，根据公式去求最后的推荐评分
+
     scores.groupBy(_._1).map{
-      // groupBy之后得到的数据 Map( mid -> ArrayBuffer[(mid, score)] )
+
       case (mid, scoreList) =>
         ( mid, scoreList.map(_._2).sum / scoreList.length + log(increMap.getOrDefault(mid, 1)) - log(decreMap.getOrDefault(mid, 1)) )
     }.toArray.sortWith(_._2>_._2)
   }
 
-  // 获取两个电影之间的相似度
   def getMusicsSimScore(mid1: Int, mid2: Int, simMusics: scala.collection.Map[Int,
     scala.collection.immutable.Map[Int, Double]]): Double ={
 
@@ -192,19 +188,15 @@ object StreamingRecommender {
     }
   }
 
-  // 求一个数的对数，利用换底公式，底数默认为10
   def log(m: Int): Double ={
     val N = 10
     math.log(m)/ math.log(N)
   }
 
   def saveDataToMongoDB(uid: Int, streamRecs: Array[(Int, Double)])(implicit mongoConfig: MongoConfig): Unit ={
-    // 定义到StreamRecs表的连接
     val streamRecsCollection = ConnHelper.mongoClient(mongoConfig.db)(MONGODB_STREAM_RECS_COLLECTION)
 
-    // 如果表中已有uid对应的数据，则删除
     streamRecsCollection.findAndRemove( MongoDBObject("uid" -> uid) )
-    // 将streamRecs数据存入表中
     streamRecsCollection.insert( MongoDBObject( "uid"->uid,
       "recs"-> streamRecs.map(x=>MongoDBObject( "mid"->x._1, "score"->x._2 )) ) )
   }

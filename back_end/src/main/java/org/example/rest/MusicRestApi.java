@@ -5,6 +5,7 @@ import org.example.utils.Constant;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-@RequestMapping("/rest/music")
+@RequestMapping("/rest")
 @Controller
 public class MusicRestApi {
 
@@ -31,15 +32,29 @@ public class MusicRestApi {
      * @param model
      * @return
      */
-    @RequestMapping(value = "/recommand", produces = "application/json", method = RequestMethod.GET)
+    @RequestMapping(value = "/music", produces = "application/json", method = RequestMethod.GET)
     @ResponseBody
-    public Map<String, Object> getMyRateMovies(@RequestParam("uid")Integer uid) {
-        // http://localhost:8080/recommand?uid=1076
+    public Map<String, Object> getMusics(@RequestParam("uid")Integer uid) {
         Map<String, Object> result = new HashMap<>();
         result.put("success", true);
-        result.put("music", musicService.getMyRateMusics(uid));
+        result.put("history_music", musicService.getHistoryMusics(uid));
+        result.put("recommand_music", musicService.getRealTimeMusics(uid));
+        result.put("popular_music", musicService.getPopularMusics(uid));
         return result;
     }
+
+
+        
+    @RequestMapping(value = "/status", produces = "application/json", method = RequestMethod.GET)
+    @ResponseBody
+    public Map<String, Object> getCalculationStatus(@RequestParam("uid") Integer uid) {
+        Map<String, Object> result = new HashMap<>();
+        String status = musicService.getCalculationStatus(uid);
+        result.put("success", true);
+        result.put("status", status != null ? status : "done"); // 如果 Redis 为空，默认返回 "done"
+        return result;
+    }
+
 
     @RequestMapping(value = "/click", produces = "application/json", method = RequestMethod.GET)
     @ResponseBody

@@ -1,8 +1,14 @@
+package com.example.recommender
+
 import org.apache.spark.SparkConf
 import org.apache.spark.mllib.recommendation.{ALS, Rating}
+import org.apache.spark.mllib.clustering.KMeans
+import org.apache.spark.mllib.linalg.Vectors
+import org.apache.spark.mllib.feature.PCA
 import org.apache.spark.sql.SparkSession
 import org.jblas.DoubleMatrix
-import model.{MongoConfig, Recommendation, MusicRating, MusicRecs}
+import com.example.model.{MongoConfig, Recommendation, MusicRating, MusicRecs}
+import java.io.{File, PrintWriter}
 
 object MusicLFM {
 
@@ -38,11 +44,11 @@ object MusicLFM {
       .load()
       .as[MusicRating]
       .rdd
-      .map( rating => ( rating.uid, rating.mid, rating.score ) )
+      .map(rating => (rating.uid, rating.mid, rating.score))
       .cache()
 
     // Train a latent semantic model
-    val trainData = ratingRDD.map( x => Rating(x._1, x._2, x._3) )
+    val trainData = ratingRDD.map(x => Rating(x._1, x._2, x._3))
     val (rank, iterations, lambda) = (100, 5, 0.1)
     val model = ALS.train(trainData, rank, iterations, lambda)
 

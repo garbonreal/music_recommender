@@ -1,28 +1,26 @@
+
+
 ## How to run the project
 
-### 1. Start the Redis, Kafka and Flume
+### 1. Start the Redis, Kafka and Flume （Docker Contain）
 under the root directory of the project, run the following commands:
 ```
 docker build -t my-kafka-flume .
 
 docker run -d
   --name recommender-container
-  --hostname kafka-service
-  -v D:\javacode\MusicRecommender\back_end\src\main\log\agent.log:/log/agent.log
+  -v D:\Personal_Experience\music_recommender\back_end\src\main\log\agent.log:/log/agent.log
   -p 2181:2181
   -p 9092:9092
   -p 6379:6379
   -p 11000:11000
   my-kafka-flume
-
+```
+How to test
+```
 apt-get install net-tools
 # check zookeeper
 /opt/zookeeper/bin/zkServer.sh status
-netstat -tulnp | grep 2181
-ps -ef | grep zookeeper 
-ps -ef | grep kafka
-ps -ef | grep flume 
-ps -ef | grep redis 
 
 # check redis
 open redis-cli on localhost and redis-cli on docker, check the ping
@@ -37,7 +35,6 @@ check the flume log file
 # how to restart the services
 ps aux | grep flume
 kill -9 <pid>
-
 ```
 
 ### 2. Start the Backend
@@ -45,15 +42,30 @@ kill -9 <pid>
 cd back_end
 mvn clean spring-boot:run
 ```
-how to test
+How to check
 ```
 mvn clean install -U
 mvn -Dtest=RedisConnectionTest test
 ```
 
-### 3. Run Data Processing
+### 3. Start the Frontend
+```
+cd front_end
+ng serve
+```
+
+### 4. Run Data Processing
 ```
 cd data_processing
 sbt compile
 sbt run 
+```
+
+### 5. Deploy the project to AWS
+```
+java -jar target\scala-2.11\StreamingRecommender-assembly-1.0.jar
+
+scp -i C:\Users\garbon\.ssh\recommender.pem D:\javacode\MusicRecommender\back_end\target\back_end-0.0.1-SNAPSHOT.jar ubuntu@ec2-54-162-93-42.compute-1.amazonaws.com:/home/ubuntu
+
+still working on it... 
 ```

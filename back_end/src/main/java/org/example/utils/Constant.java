@@ -13,9 +13,15 @@ public class Constant {
 
     public static String MONGODB_LISTENING_COLLECTION = "Listening";
 
+    public static String MONGODB_STREAM_RECS_COLLECTION = "StreamRecs";
+
+    public static int MAX_HISTORY_SIZE = 20;
+
     //************** FOR MUSIC LISTENING ******************
 
     public static String MUSIC_LISTENING_PREFIX = "MUSIC_LISTENING_PREFIX";
+
+    public static String MUSIC_RECS_STATUS = "calculation_status:";
 
     public static int REDIS_MUSIC_LISTENING_QUEUE_SIZE = 40;
 }

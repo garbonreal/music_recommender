@@ -1,10 +1,12 @@
+package com.example.recommender
+
 import breeze.numerics.sqrt
 import org.apache.spark.SparkConf
 import org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 // import model.utils.{MongoConfig}
-import model.{MongoConfig, MusicRating}
+import com.example.model.{MongoConfig, MusicRating}
 
 object ALSTrainer {
 

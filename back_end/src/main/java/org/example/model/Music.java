@@ -9,14 +9,14 @@ public class Music implements Serializable {
     private Integer mid;
     private String name;
     private String url;
-    private Double score;
+    private Integer clicks;
 
-    public Double getScore() {
-        return score;
+    public Integer getClicks() {
+        return clicks;
     }
 
-    public void setScore(Double score) {
-        this.score = score;
+    public void setClicks(Integer clicks) {
+        this.clicks = clicks;
     }
 
     public Integer getMid() {

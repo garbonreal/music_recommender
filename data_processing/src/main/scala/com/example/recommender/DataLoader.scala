@@ -1,9 +1,11 @@
+package com.example.recommender
+
 import com.mongodb.casbah.commons.MongoDBObject
 import com.mongodb.casbah.{MongoClient, MongoClientURI}
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import com.typesafe.config.ConfigFactory
-import model.{MongoConfig, Rating, Music}
+import com.example.model.{MongoConfig, Rating, Music}
 
 import java.net.InetAddress
 

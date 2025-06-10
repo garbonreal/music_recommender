@@ -5,13 +5,49 @@
 
 <button (click)="fetchMusicRatings()">Select</button>
 
-<h4>Recommendations:</h4>
-<p *ngIf="musicList.length > 0">
-  <span *ngFor="let music of musicList; let isLast = last">
-    <a [href]="music.url" target="_blank">{{ music.name }}</a>
-    <button (click)="onArtistClick(music.mid)">Listen</button>
-    {{ isLast ? '' : ', ' }}
-  </span>
-  <span *ngIf="musicList.length === 0">No recommendations available.</span>
-</p>
+<div class="music-container">
+  <div class="music-column">
+    <h4>Favorite Music:</h4>
+    <p *ngIf="popularMusicList.length > 0">
+      <span *ngFor="let music of popularMusicList; let isLast = last">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a [href]="music.url" target="_blank">{{ music.name }}</a>
+        <button class="play-btn" (click)="onArtistClick(music.mid)">[Play]</button>
+        <a class="click-count">({{ music.clicks !== null ? music.clicks : 0 }})</a>
+        {{ isLast ? '' : ', ' }}
+      </span>
+    </p>
+    <p *ngIf="popularMusicList.length === 0">No favorite music available.</p>
+  </div>
+
+  <div class="music-column">
+    <h4>History Music:</h4>
+    <p *ngIf="isCalculating">Waiting for calculating ...</p>
+    <p *ngIf="!isCalculating && historyMusicList.length > 0">
+      <span *ngFor="let music of historyMusicList; let isLast = last">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a [href]="music.url" target="_blank">{{ music.name }}</a>
+        <button class="play-btn" (click)="onArtistClick(music.mid)">[Play]</button>
+        <a class="click-count">({{ music.clicks !== null ? music.clicks : 0 }})</a>
+        {{ isLast ? '' : ', ' }}
+      </span>
+    </p>
+    <p *ngIf="!isCalculating && historyMusicList.length === 0">No history music available.</p>
+  </div>
+
+  <div class="music-column">
+    <h4>Recommendations:</h4>
+    <p *ngIf="isCalculating">Waiting for calculating ...</p>
+    <p *ngIf="!isCalculating && recommandMusicList.length > 0">
+      <span *ngFor="let music of recommandMusicList; let isLast = last">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a [href]="music.url" target="_blank">{{ music.name }}</a>
+        <button class="play-btn" (click)="onArtistClick(music.mid)">[Play]</button>
+        <a class="click-count">({{ music.clicks !== null ? music.clicks : 0 }})</a>
+        {{ isLast ? '' : ', ' }}
+      </span>
+    </p>
+    <p *ngIf="!isCalculating && recommandMusicList.length === 0">No recommendations available.</p>
+  </div>
+</div>
 
